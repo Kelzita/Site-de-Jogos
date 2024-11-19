@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiki de Personagens</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Wiki de Personagens</h1>
+  </header>
+  <main>
+    <section id="add-character">
+      <h2>Adicionar Personagem</h2>
+      <form id="character-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" placeholder="Nome do personagem" required>
+        
+        <label for="description">Descrição:</label>
+        <textarea id="description" placeholder="Descrição do personagem" required></textarea>
+        
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+    <section id="character-list">
+      <h2>Lista de Personagens</h2>
+      <ul id="list"></ul>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
